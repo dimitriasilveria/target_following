@@ -2,7 +2,7 @@
 
 A ROS 2 package that deploys a Deep Reinforcement Learning policy on real Crazyflie drones to track a dynamic target (QCar ground vehicle) while avoiding obstacles. Agents are trained individually in a static single-agent environment using Soft Actor-Critic (SAC), then the resulting policy is scaled to multi-agent swarm scenarios — enabling collision-free target tracking using only local neighborhood information.
 
-![Target tracking with two obstacles](/trajectory_one_vs_one_two_obst.gif)
+![Target tracking with two obstacles](images/trajectory_one_vs_one_two_obst.gif)
 
 ---
 
